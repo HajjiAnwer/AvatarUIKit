@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0761AFE9DE1F0C9AC2A495901925E546 /* AvatarUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A38B8ED4F3BB675425854483AE2E5EAB /* AvatarUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CCEFD2EF70D179CD9A9AFE4D6B7D8AD /* Pods-AvatarUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D53E085F2E006A1AD5E42620152EC902 /* Pods-AvatarUIKit_Example-dummy.m */; };
+		335F157A6972336CD20C9E81AEFF14EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3633D9AB5323C1A9688DABA8AEA51975 /* Pods-AvatarUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08DA15E48D4D358B7D5D27E81CFDA9DB /* Pods-AvatarUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		987BA33705E56C9D34E99D84B40084FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A349616B86E14B158D2E2058B51673B0 /* Pods-AvatarUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA064D860A27D965FEC5F31593CEC4 /* Pods-AvatarUIKit_Tests-dummy.m */; };
+		B7937EF5423797636681F652C6B5DAEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B85293D6A4EF1138A7326A5363203AA9 /* AvatarUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FD2DFF97127C4AEE007EEFA983B65E /* AvatarUIKit-dummy.m */; };
+		C41EB39655953A92B3E54A418A087C40 /* Pods-AvatarUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60E6ABF7F49F5D8FABC2BDDC8E2ABD84 /* Pods-AvatarUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F28161CB2445240C004DBAD6 /* AvatarBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28161C92445240C004DBAD6 /* AvatarBuilder.swift */; };
+		F28161CC2445240C004DBAD6 /* AvatarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28161CA2445240C004DBAD6 /* AvatarProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF8708165D4FB224CAC693513BA1B87A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBBA99C2CCEEBEA0347E75C1232DCBCE;
+			remoteInfo = "Pods-AvatarUIKit_Example";
+		};
+		E9EE272D517E3E7F2278DB2515762130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 592F6CBDA78D97EC77868ADC1F1BA2EA;
+			remoteInfo = AvatarUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001B67825DE149CBFE37806D5B9A49E7 /* Pods-AvatarUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvatarUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		08DA15E48D4D358B7D5D27E81CFDA9DB /* Pods-AvatarUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvatarUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1F1EBDEB9EB25FD6A7732535C0615F9C /* Pods-AvatarUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvatarUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		26F4ACEAA86A55158A38251EB8467977 /* Pods-AvatarUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvatarUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29EAEE1A17D0768BEA0A9BD9B43D81B2 /* Pods-AvatarUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvatarUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E89DA90EE32832E92C8D5B117744BCC /* Pods-AvatarUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvatarUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3EFE72E1CE32F695068A017B068ABE8D /* AvatarUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AvatarUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		519971CA05972504947AEFBCD41D322B /* Pods-AvatarUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvatarUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5CA154BE2EBA099DF9C20006C7D86EB7 /* Pods-AvatarUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvatarUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CC0650EEB1EEF0A1BF84474435D222F /* Pods-AvatarUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AvatarUIKit_Tests.modulemap"; sourceTree = "<group>"; };
+		5E00CFE70BCDBC8FE6D5DE79D6EB564D /* Pods-AvatarUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvatarUIKit_Example-Info.plist"; sourceTree = "<group>"; };
+		60E6ABF7F49F5D8FABC2BDDC8E2ABD84 /* Pods-AvatarUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvatarUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		65C8D30439206CC43133A74D719EB982 /* Pods-AvatarUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvatarUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		79FC14B55A671431AAA8382FB8E89B19 /* Pods-AvatarUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvatarUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		87CD2E11DC5E1CC0881D523507533691 /* AvatarUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvatarUIKit-prefix.pch"; sourceTree = "<group>"; };
+		8AEA064D860A27D965FEC5F31593CEC4 /* Pods-AvatarUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvatarUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		8DCBBA509DF96B1CC323FD69EA2D8B29 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		993E5E035B18E982B84411FD1824ECDD /* AvatarUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AvatarUIKit.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A38B8ED4F3BB675425854483AE2E5EAB /* AvatarUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvatarUIKit-umbrella.h"; sourceTree = "<group>"; };
+		AD31F920D280813123BD030D9EA58602 /* AvatarUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AvatarUIKit.release.xcconfig; sourceTree = "<group>"; };
+		AD6BC0B1B083481A4A6BD20976D8D1BF /* Pods-AvatarUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvatarUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B1AB6E5897B809ABDBCFEC3DF540E285 /* AvatarUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AvatarUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		B241EBF07EEFD5BCC3909058C46FAED9 /* Pods_AvatarUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvatarUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D77892DF9B82AD673851641C576863 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BDEE64E5C73E731AC5D8738FB62D45F9 /* Pods-AvatarUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AvatarUIKit_Example.modulemap"; sourceTree = "<group>"; };
+		D1FD2DFF97127C4AEE007EEFA983B65E /* AvatarUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AvatarUIKit-dummy.m"; sourceTree = "<group>"; };
+		D53E085F2E006A1AD5E42620152EC902 /* Pods-AvatarUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvatarUIKit_Example-dummy.m"; sourceTree = "<group>"; };
+		DFEDA45EE0008774DA8AB0DE15E2E08B /* AvatarUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AvatarUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E6EBBF6B620E457D6DF0781A4C9ECF9E /* AvatarUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AvatarUIKit-Info.plist"; sourceTree = "<group>"; };
+		ECEF0CF21B329373F1EDCA2AC58F5EAB /* Pods_AvatarUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvatarUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28161C92445240C004DBAD6 /* AvatarBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarBuilder.swift; sourceTree = "<group>"; };
+		F28161CA2445240C004DBAD6 /* AvatarProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AD24CC9B18339B6C699D30F0BCF7ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7937EF5423797636681F652C6B5DAEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1FD3C6B8FBE982560AB1B8C728732E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987BA33705E56C9D34E99D84B40084FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C0426040063B668B751A04E07F44E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335F157A6972336CD20C9E81AEFF14EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C38B954E13B2BA86A22DF94B8E8D721 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE8477632C4E42CDE08FE26F1FCC1CAB /* AvatarUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		707B0E8CCE5A49E4C85F30739CAACB08 /* Pods-AvatarUIKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BDEE64E5C73E731AC5D8738FB62D45F9 /* Pods-AvatarUIKit_Example.modulemap */,
+				5CA154BE2EBA099DF9C20006C7D86EB7 /* Pods-AvatarUIKit_Example-acknowledgements.markdown */,
+				1F1EBDEB9EB25FD6A7732535C0615F9C /* Pods-AvatarUIKit_Example-acknowledgements.plist */,
+				D53E085F2E006A1AD5E42620152EC902 /* Pods-AvatarUIKit_Example-dummy.m */,
+				AD6BC0B1B083481A4A6BD20976D8D1BF /* Pods-AvatarUIKit_Example-frameworks.sh */,
+				5E00CFE70BCDBC8FE6D5DE79D6EB564D /* Pods-AvatarUIKit_Example-Info.plist */,
+				60E6ABF7F49F5D8FABC2BDDC8E2ABD84 /* Pods-AvatarUIKit_Example-umbrella.h */,
+				519971CA05972504947AEFBCD41D322B /* Pods-AvatarUIKit_Example.debug.xcconfig */,
+				3E89DA90EE32832E92C8D5B117744BCC /* Pods-AvatarUIKit_Example.release.xcconfig */,
+			);
+			name = "Pods-AvatarUIKit_Example";
+			path = "Target Support Files/Pods-AvatarUIKit_Example";
+			sourceTree = "<group>";
+		};
+		806E4509F78DEFEC3D5A0D20FE325937 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				993E5E035B18E982B84411FD1824ECDD /* AvatarUIKit.modulemap */,
+				D1FD2DFF97127C4AEE007EEFA983B65E /* AvatarUIKit-dummy.m */,
+				E6EBBF6B620E457D6DF0781A4C9ECF9E /* AvatarUIKit-Info.plist */,
+				87CD2E11DC5E1CC0881D523507533691 /* AvatarUIKit-prefix.pch */,
+				A38B8ED4F3BB675425854483AE2E5EAB /* AvatarUIKit-umbrella.h */,
+				B1AB6E5897B809ABDBCFEC3DF540E285 /* AvatarUIKit.debug.xcconfig */,
+				AD31F920D280813123BD030D9EA58602 /* AvatarUIKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AvatarUIKit";
+			sourceTree = "<group>";
+		};
+		99CC0D7FCDF9B9D826BB45EC80B66417 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDA45EE0008774DA8AB0DE15E2E08B /* AvatarUIKit.podspec */,
+				B5D77892DF9B82AD673851641C576863 /* LICENSE */,
+				8DCBBA509DF96B1CC323FD69EA2D8B29 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1C38B954E13B2BA86A22DF94B8E8D721 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D3F1F551CD045AEEE85CFF38D97A58EA /* Products */,
+				FC7FA8F1F6E1A7FDA95403981DCDC6F3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3F1F551CD045AEEE85CFF38D97A58EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EFE72E1CE32F695068A017B068ABE8D /* AvatarUIKit.framework */,
+				B241EBF07EEFD5BCC3909058C46FAED9 /* Pods_AvatarUIKit_Example.framework */,
+				ECEF0CF21B329373F1EDCA2AC58F5EAB /* Pods_AvatarUIKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE8477632C4E42CDE08FE26F1FCC1CAB /* AvatarUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F28161C8244523EC004DBAD6 /* Source */,
+				99CC0D7FCDF9B9D826BB45EC80B66417 /* Pod */,
+				806E4509F78DEFEC3D5A0D20FE325937 /* Support Files */,
+			);
+			name = AvatarUIKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E03595D36318EAB6E59BF9FB4DBCD8D7 /* Pods-AvatarUIKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0650EEB1EEF0A1BF84474435D222F /* Pods-AvatarUIKit_Tests.modulemap */,
+				26F4ACEAA86A55158A38251EB8467977 /* Pods-AvatarUIKit_Tests-acknowledgements.markdown */,
+				79FC14B55A671431AAA8382FB8E89B19 /* Pods-AvatarUIKit_Tests-acknowledgements.plist */,
+				8AEA064D860A27D965FEC5F31593CEC4 /* Pods-AvatarUIKit_Tests-dummy.m */,
+				29EAEE1A17D0768BEA0A9BD9B43D81B2 /* Pods-AvatarUIKit_Tests-Info.plist */,
+				08DA15E48D4D358B7D5D27E81CFDA9DB /* Pods-AvatarUIKit_Tests-umbrella.h */,
+				65C8D30439206CC43133A74D719EB982 /* Pods-AvatarUIKit_Tests.debug.xcconfig */,
+				001B67825DE149CBFE37806D5B9A49E7 /* Pods-AvatarUIKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-AvatarUIKit_Tests";
+			path = "Target Support Files/Pods-AvatarUIKit_Tests";
+			sourceTree = "<group>";
+		};
+		F28161C8244523EC004DBAD6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F28161C92445240C004DBAD6 /* AvatarBuilder.swift */,
+				F28161CA2445240C004DBAD6 /* AvatarProtocol.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		FC7FA8F1F6E1A7FDA95403981DCDC6F3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				707B0E8CCE5A49E4C85F30739CAACB08 /* Pods-AvatarUIKit_Example */,
+				E03595D36318EAB6E59BF9FB4DBCD8D7 /* Pods-AvatarUIKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A6038CEFB48DF2A4B4BD4E2F2B565E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3633D9AB5323C1A9688DABA8AEA51975 /* Pods-AvatarUIKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F85BDD6923A3399B79FF95CCCFB824 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41EB39655953A92B3E54A418A087C40 /* Pods-AvatarUIKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8351E953835AD3E823DDE56F263DE03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0761AFE9DE1F0C9AC2A495901925E546 /* AvatarUIKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C06E681AF0E21514CD8C7D9FC0667DA /* Pods-AvatarUIKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132F1AB7EADFE277947971FF0C7CDA8A /* Build configuration list for PBXNativeTarget "Pods-AvatarUIKit_Tests" */;
+			buildPhases = (
+				2A6038CEFB48DF2A4B4BD4E2F2B565E2 /* Headers */,
+				41DCDE49D248E008C341A1764DD530F9 /* Sources */,
+				59C0426040063B668B751A04E07F44E2 /* Frameworks */,
+				CA21B04506806A32C5E96EC59571FB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9AEC9801D362A00763FDF93EB839890 /* PBXTargetDependency */,
+			);
+			name = "Pods-AvatarUIKit_Tests";
+			productName = "Pods-AvatarUIKit_Tests";
+			productReference = ECEF0CF21B329373F1EDCA2AC58F5EAB /* Pods_AvatarUIKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		592F6CBDA78D97EC77868ADC1F1BA2EA /* AvatarUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29C543DCD14200CCBC106985E71A033 /* Build configuration list for PBXNativeTarget "AvatarUIKit" */;
+			buildPhases = (
+				D8351E953835AD3E823DDE56F263DE03 /* Headers */,
+				DD24DD38295187136EB54F9F4119AE43 /* Sources */,
+				3A1FD3C6B8FBE982560AB1B8C728732E /* Frameworks */,
+				07886CEB97B5E32828410F5194907BB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvatarUIKit;
+			productName = AvatarUIKit;
+			productReference = 3EFE72E1CE32F695068A017B068ABE8D /* AvatarUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBBA99C2CCEEBEA0347E75C1232DCBCE /* Pods-AvatarUIKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A7919C1285498AAD17881B4976BF86 /* Build configuration list for PBXNativeTarget "Pods-AvatarUIKit_Example" */;
+			buildPhases = (
+				A0F85BDD6923A3399B79FF95CCCFB824 /* Headers */,
+				3A8319FDF0F7E979F0E427B682262242 /* Sources */,
+				2AD24CC9B18339B6C699D30F0BCF7ECC /* Frameworks */,
+				BFB6FFA43E00B63BDBDCCADB4E5BAE6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE31D5E987EE1A16F71681044EC528AD /* PBXTargetDependency */,
+			);
+			name = "Pods-AvatarUIKit_Example";
+			productName = "Pods-AvatarUIKit_Example";
+			productReference = B241EBF07EEFD5BCC3909058C46FAED9 /* Pods_AvatarUIKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					592F6CBDA78D97EC77868ADC1F1BA2EA = {
+						LastSwiftMigration = 1140;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D3F1F551CD045AEEE85CFF38D97A58EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				592F6CBDA78D97EC77868ADC1F1BA2EA /* AvatarUIKit */,
+				CBBA99C2CCEEBEA0347E75C1232DCBCE /* Pods-AvatarUIKit_Example */,
+				2C06E681AF0E21514CD8C7D9FC0667DA /* Pods-AvatarUIKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07886CEB97B5E32828410F5194907BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB6FFA43E00B63BDBDCCADB4E5BAE6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA21B04506806A32C5E96EC59571FB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A8319FDF0F7E979F0E427B682262242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCEFD2EF70D179CD9A9AFE4D6B7D8AD /* Pods-AvatarUIKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41DCDE49D248E008C341A1764DD530F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A349616B86E14B158D2E2058B51673B0 /* Pods-AvatarUIKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD24DD38295187136EB54F9F4119AE43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28161CB2445240C004DBAD6 /* AvatarBuilder.swift in Sources */,
+				B85293D6A4EF1138A7326A5363203AA9 /* AvatarUIKit-dummy.m in Sources */,
+				F28161CC2445240C004DBAD6 /* AvatarProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9AEC9801D362A00763FDF93EB839890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AvatarUIKit_Example";
+			target = CBBA99C2CCEEBEA0347E75C1232DCBCE /* Pods-AvatarUIKit_Example */;
+			targetProxy = CF8708165D4FB224CAC693513BA1B87A /* PBXContainerItemProxy */;
+		};
+		EE31D5E987EE1A16F71681044EC528AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AvatarUIKit;
+			target = 592F6CBDA78D97EC77868ADC1F1BA2EA /* AvatarUIKit */;
+			targetProxy = E9EE272D517E3E7F2278DB2515762130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E657DCDBE952A507429C2A6237BF27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C8D30439206CC43133A74D719EB982 /* Pods-AvatarUIKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AvatarUIKit_Tests/Pods-AvatarUIKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvatarUIKit_Tests/Pods-AvatarUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		164F196D66C4F6446432DF190AC99A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001B67825DE149CBFE37806D5B9A49E7 /* Pods-AvatarUIKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AvatarUIKit_Tests/Pods-AvatarUIKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvatarUIKit_Tests/Pods-AvatarUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36F3C51780E42B95B1FB72B457388955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD31F920D280813123BD030D9EA58602 /* AvatarUIKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AvatarUIKit/AvatarUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AvatarUIKit/AvatarUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AvatarUIKit/AvatarUIKit.modulemap";
+				PRODUCT_MODULE_NAME = AvatarUIKit;
+				PRODUCT_NAME = AvatarUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41D70DDD3ACCB793552AD15F941982D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E89DA90EE32832E92C8D5B117744BCC /* Pods-AvatarUIKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AvatarUIKit_Example/Pods-AvatarUIKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvatarUIKit_Example/Pods-AvatarUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8FD6CE990257C1FC6949B4A86DA05772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 519971CA05972504947AEFBCD41D322B /* Pods-AvatarUIKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AvatarUIKit_Example/Pods-AvatarUIKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvatarUIKit_Example/Pods-AvatarUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FC1400EEEBB22ECEFC5BF89B628E663E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1AB6E5897B809ABDBCFEC3DF540E285 /* AvatarUIKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AvatarUIKit/AvatarUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AvatarUIKit/AvatarUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AvatarUIKit/AvatarUIKit.modulemap";
+				PRODUCT_MODULE_NAME = AvatarUIKit;
+				PRODUCT_NAME = AvatarUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		132F1AB7EADFE277947971FF0C7CDA8A /* Build configuration list for PBXNativeTarget "Pods-AvatarUIKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E657DCDBE952A507429C2A6237BF27D /* Debug */,
+				164F196D66C4F6446432DF190AC99A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A7919C1285498AAD17881B4976BF86 /* Build configuration list for PBXNativeTarget "Pods-AvatarUIKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD6CE990257C1FC6949B4A86DA05772 /* Debug */,
+				41D70DDD3ACCB793552AD15F941982D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29C543DCD14200CCBC106985E71A033 /* Build configuration list for PBXNativeTarget "AvatarUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1400EEEBB22ECEFC5BF89B628E663E /* Debug */,
+				36F3C51780E42B95B1FB72B457388955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

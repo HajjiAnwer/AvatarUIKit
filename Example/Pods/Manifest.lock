@@ -1,0 +1,16 @@
+PODS:
+  - AvatarUIKit (0.1.0)
+
+DEPENDENCIES:
+  - AvatarUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  AvatarUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AvatarUIKit: 8c9d5a5d931159ba98c0feb96b99cb0635fc2bda
+
+PODFILE CHECKSUM: c124aadf10e3a756195d9d79847438783badb12d
+
+COCOAPODS: 1.9.1
