@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AvatarUIKit_Example' do
+  pod 'AvatarUIKit', :path => '../'
+
+  target 'AvatarUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
