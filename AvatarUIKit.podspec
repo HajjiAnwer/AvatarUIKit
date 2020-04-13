@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/HajjiAnwer/AvatarUIKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'HajjiAnwer' => 'hanwer@tryspare.com' }
+  s.author           = { 'HajjiAnwer' => 'hajjianwer2013@gmail.com' }
   s.source           = { :git => 'https://github.com/HajjiAnwer/AvatarUIKit.git', :tag => s.version.to_s }
  
 
