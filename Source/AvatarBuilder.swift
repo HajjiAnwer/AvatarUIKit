@@ -79,7 +79,7 @@ public class AvatarBuilderUI : AvatarBuilderUIProtocol{
     }
     
     private func downloadImageWithURL(url: String) -> UIImageView {
-        let imageView = UIImageView()
+        let imageView = addImageViewToSuperView()
         if let url = URL.init(string: url) {
             imageView.downloadedFrom(url: url)
         }
