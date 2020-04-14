@@ -50,7 +50,7 @@ public class AvatarBuilderUI : AvatarBuilderUIProtocol{
     public func backgroundColorWhenIsTransparant(url:String,color: UIColor) -> AvatarBuilderUI {
         let scale:CGFloat = coef
         var imageView = addImageViewToSuperView(scale: scale)
-        url.isValidURL ? (imageView = downloadImageWithURL(url: url)) : (imageView.image =  UIImage(named: url))
+        url.isValidURL ? (imageView = downloadImageWithURL(url: url,scale: scale)) : (imageView.image =  UIImage(named: url))
         if (imageView.image?.isTransparent() ?? false)  {
             imageView.image = (UIImage.init().changeBackgroundColor(image: imageView.image ?? UIImage(), backgroundColor: color))
             self.view.backgroundColor = color
@@ -63,7 +63,7 @@ public class AvatarBuilderUI : AvatarBuilderUIProtocol{
     
     public func scaleImage(url:String , scale:CGFloat = 1.0) -> AvatarBuilderUI {
         var imageView = addImageViewToSuperView(scale: scale)
-        url.isValidURL ? (imageView = downloadImageWithURL(url: url)) : (imageView.image =  UIImage(named: url))
+        url.isValidURL ? (imageView = downloadImageWithURL(url: url,scale: scale)) : (imageView.image =  UIImage(named: url))
         self.view.clipsToBounds = true
         self.view.addSubview(imageView)
         self.coef = scale
@@ -78,8 +78,8 @@ public class AvatarBuilderUI : AvatarBuilderUIProtocol{
         return imageView
     }
     
-    private func downloadImageWithURL(url: String) -> UIImageView {
-        let imageView = addImageViewToSuperView()
+    private func downloadImageWithURL(url: String,scale : CGFloat = 1) -> UIImageView {
+        let imageView = addImageViewToSuperView(scale: scale)
         if let url = URL.init(string: url) {
             imageView.downloadedFrom(url: url)
         }
