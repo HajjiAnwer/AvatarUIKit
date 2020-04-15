@@ -18,6 +18,7 @@
 		C41EB39655953A92B3E54A418A087C40 /* Pods-AvatarUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60E6ABF7F49F5D8FABC2BDDC8E2ABD84 /* Pods-AvatarUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F28161CB2445240C004DBAD6 /* AvatarBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28161C92445240C004DBAD6 /* AvatarBuilder.swift */; };
 		F28161CC2445240C004DBAD6 /* AvatarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28161CA2445240C004DBAD6 /* AvatarProtocol.swift */; };
+		F2E0D2E324474AC50062765D /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0D2E224474AC50062765D /* Type.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		ECEF0CF21B329373F1EDCA2AC58F5EAB /* Pods_AvatarUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvatarUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28161C92445240C004DBAD6 /* AvatarBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarBuilder.swift; sourceTree = "<group>"; };
 		F28161CA2445240C004DBAD6 /* AvatarProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarProtocol.swift; sourceTree = "<group>"; };
+		F2E0D2E224474AC50062765D /* Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 			children = (
 				F28161C92445240C004DBAD6 /* AvatarBuilder.swift */,
 				F28161CA2445240C004DBAD6 /* AvatarProtocol.swift */,
+				F2E0D2E224474AC50062765D /* Type.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				F28161CB2445240C004DBAD6 /* AvatarBuilder.swift in Sources */,
 				B85293D6A4EF1138A7326A5363203AA9 /* AvatarUIKit-dummy.m in Sources */,
 				F28161CC2445240C004DBAD6 /* AvatarProtocol.swift in Sources */,
+				F2E0D2E324474AC50062765D /* Type.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
