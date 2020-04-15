@@ -14,7 +14,7 @@ public class AvatarBuilderUI : AvatarBuilderUIProtocol{
     
     var view: UIView
     var coef : CGFloat = 1
-    init(view:UIView) {
+    public init(view:UIView) {
         self.view = view
     }
     
