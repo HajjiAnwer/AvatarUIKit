@@ -12,7 +12,7 @@ public protocol AvatarBuilderUIProtocol {
     func circularView() -> AvatarBuilderUI
     func border(borderWidth : CGFloat, borderColor : CGColor) -> AvatarBuilderUI
     func shadow(opacity: Float, color:CGColor ) ->AvatarBuilderUI
-    func scaleImage(url:String,scale:CGFloat) ->AvatarBuilderUI
-    func backgroundColorWhenIsTransparant(url:String,color:UIColor) ->AvatarBuilderUI
+    func scaleImage(url:String,scale:CGFloat,type:Type) ->AvatarBuilderUI
+    func backgroundColorWhenIsTransparant(url:String,color:UIColor,type:Type) ->AvatarBuilderUI
     func cornerRadius (radius: CGFloat) ->AvatarBuilderUI
 }

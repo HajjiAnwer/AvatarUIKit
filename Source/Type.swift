@@ -7,7 +7,8 @@
 
 
 import Foundation
-enum Type {
+
+public enum Type {
     case cercle
     case square
 }
