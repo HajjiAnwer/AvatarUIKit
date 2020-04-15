@@ -1,5 +1,5 @@
 //
-//  AvatarBuilder.swift
+//  AvatarBuilderUI.swift
 //  builderPattern
 //
 //  Created by Hajji Anwer on 4/8/20.
@@ -13,31 +13,30 @@ import UIKit
 public class AvatarBuilderUI : AvatarBuilderUIProtocol{
     
     var view: UIView
-        var coef: CGFloat = 1
         
         init(view:UIView) {
             self.view = view
         }
         
-        public func cornerRadius (radius: CGFloat) ->AvatarBuilder{
+        public func cornerRadius (radius: CGFloat) ->AvatarBuilderUI{
             self.view.layer.cornerRadius = radius
             self.view.alpha = 1
             return self
         }
         
-        public func circularView() -> AvatarBuilder {
+        public func circularView() -> AvatarBuilderUI {
             self.view.layer.cornerRadius = 0.5 * (view.bounds.size.width)
             self.view.clipsToBounds = true
             return self
         }
         
-        public func border(borderWidth: CGFloat = 1.0 , borderColor: CGColor = UIColor.gray.cgColor) -> AvatarBuilder {
+        public func border(borderWidth: CGFloat = 1.0 , borderColor: CGColor = UIColor.gray.cgColor) -> AvatarBuilderUI {
             self.view.layer.borderWidth = borderWidth
             self.view.layer.borderColor = borderColor
             return self
         }
         
-        public func shadow(opacity: Float = 0.1, color:CGColor = UIColor.black.cgColor) -> AvatarBuilder {
+        public func shadow(opacity: Float = 0.1, color:CGColor = UIColor.black.cgColor) -> AvatarBuilderUI {
             self.view.layer.masksToBounds = false
             self.view.layer.shadowColor = color
             self.view.layer.shadowOffset = CGSize.zero
@@ -48,8 +47,7 @@ public class AvatarBuilderUI : AvatarBuilderUIProtocol{
             return self
         }
         
-        public func backgroundColorWhenIsTransparant(url:String,color: UIColor,type:Type) -> AvatarBuilder {
-            let scale:CGFloat = coef
+        public func backgroundColorWhenIsTransparant(url:String,color: UIColor,type:Type) -> AvatarBuilderUI {
             var imageView = addImageViewToSuperView(scale: scale,type: type)
             url.isValidURL ? (imageView = downloadImageWithURL(url: url,scale: scale, type: type)) : (imageView.image =  UIImage(named: url))
             if (downloadImageWithURL(url: url,scale: scale,type: type).image?.isTransparent() ?? false)  {
@@ -62,7 +60,7 @@ public class AvatarBuilderUI : AvatarBuilderUIProtocol{
             return self
         }
         
-        public func scaleImage(url:String , scale:CGFloat = 1.0,type:Type) -> AvatarBuilder {
+        public func scaleImage(url:String , scale:CGFloat = 1.0,type:Type) -> AvatarBuilderUI {
             var imageView = addImageViewToSuperView(scale: scale,type: type)
             url.isValidURL ? (imageView = downloadImageWithURL(url: url,scale: scale,type: type)) : (imageView.image =  UIImage(named: url))
             self.view.clipsToBounds = true
