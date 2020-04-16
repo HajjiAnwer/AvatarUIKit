@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 
-
 public class AvatarBuilderUI : AvatarBuilderUIProtocol{
     
     var view: UIView
@@ -75,6 +74,7 @@ public class AvatarBuilderUI : AvatarBuilderUIProtocol{
         imageView.bounds.size.width = view.frame.width * scale
         imageView.bounds.size.height = view.frame.height * scale
         imageView.center = CGPoint(x:view.frame.width / 2, y: view.frame.height / 2)
+        imageView.backgroundColor = UIColor.white
         if type == .cercle{
             imageView.layer.cornerRadius = 0.5 * (view.bounds.size.width)
             imageView.clipsToBounds = true
