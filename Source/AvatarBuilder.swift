@@ -30,7 +30,7 @@ public class AvatarBuilderUI : AvatarBuilderUIProtocol{
         return self
     }
     
-    public func border(borderWidth: CGFloat = 1.0 , borderColor: CGColor = UIColor.gray.cgColor) -> AvatarBuilderUI {
+    public func setBorder(borderWidth: CGFloat = 1.0 , borderColor: CGColor = UIColor.gray.cgColor) -> AvatarBuilderUI {
         self.view.layer.borderWidth = borderWidth
         self.view.layer.borderColor = borderColor
         return self
@@ -47,23 +47,14 @@ public class AvatarBuilderUI : AvatarBuilderUIProtocol{
         return self
     }
     
-    public func backgroundColorWhenIsTransparant(url:String,color: UIColor,type:Type) -> AvatarBuilderUI {
-        let scale:CGFloat = coef
-        var imageView = addImageViewToSuperView(scale: scale,type: type)
-        url.isValidURL ? (imageView = downloadImageWithURL(url: url,scale: scale, type: type)) : (imageView.image =  UIImage(named: url))
-        if (downloadImageWithURL(url: url,scale: scale,type: type).image?.isTransparent() ?? false)  {
-            imageView.image = (UIImage.init().changeBackgroundColor(image: imageView.image ?? UIImage(), backgroundColor: color))
-            self.view.backgroundColor = color
-        }
-        
-        self.view.addSubview(imageView)
-        self.view.clipsToBounds = true
-        return self
-    }
-    
     public func scaleImage(url:String , scale:CGFloat = 1.0,type:Type) -> AvatarBuilderUI {
-        var imageView = addImageViewToSuperView(scale: scale,type: type)
-        url.isValidURL ? (imageView = downloadImageWithURL(url: url,scale: scale,type: type)) : (imageView.image =  UIImage(named: url))
+        let imageView = addImageViewToSuperView(scale: scale,type: type)
+        if !url.isValidURL {
+            (imageView.image =  UIImage(named: url))
+        }else{
+            let url = URL(string: url)
+            imageView.kf.setImage(with: url)
+        }
         self.view.clipsToBounds = true
         self.view.addSubview(imageView)
         self.coef = scale
