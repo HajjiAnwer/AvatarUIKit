@@ -3,7 +3,7 @@ use_frameworks!
 target 'AvatarUIKit_Example' do
   
   pod 'AvatarUIKit', :path => '../'
-
+  pod 'kingfisher'
   target 'AvatarUIKit_Tests' do
     inherit! :search_paths
 

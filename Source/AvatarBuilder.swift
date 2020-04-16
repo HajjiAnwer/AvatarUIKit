@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import Kingfisher
 
 public class AvatarBuilderUI : AvatarBuilderUIProtocol{
     

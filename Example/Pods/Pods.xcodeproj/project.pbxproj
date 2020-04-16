@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0761AFE9DE1F0C9AC2A495901925E546 /* AvatarUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A38B8ED4F3BB675425854483AE2E5EAB /* AvatarUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C28BED6395224B26C61BCD6 /* Pods_Pods_AvatarUIKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5D5520E847EDF04CC922D7 /* Pods_Pods_AvatarUIKit_Tests.framework */; };
 		1CCEFD2EF70D179CD9A9AFE4D6B7D8AD /* Pods-AvatarUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D53E085F2E006A1AD5E42620152EC902 /* Pods-AvatarUIKit_Example-dummy.m */; };
 		335F157A6972336CD20C9E81AEFF14EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3633D9AB5323C1A9688DABA8AEA51975 /* Pods-AvatarUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08DA15E48D4D358B7D5D27E81CFDA9DB /* Pods-AvatarUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78FD08B564A0E353C8519357 /* Pods_AvatarUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8777019309F5B84D047403C2 /* Pods_AvatarUIKit.framework */; };
 		987BA33705E56C9D34E99D84B40084FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A349616B86E14B158D2E2058B51673B0 /* Pods-AvatarUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA064D860A27D965FEC5F31593CEC4 /* Pods-AvatarUIKit_Tests-dummy.m */; };
 		B7937EF5423797636681F652C6B5DAEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -19,6 +21,7 @@
 		F28161CB2445240C004DBAD6 /* AvatarBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28161C92445240C004DBAD6 /* AvatarBuilder.swift */; };
 		F28161CC2445240C004DBAD6 /* AvatarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28161CA2445240C004DBAD6 /* AvatarProtocol.swift */; };
 		F2E0D2E324474AC50062765D /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0D2E224474AC50062765D /* Type.swift */; };
+		F613D11AF742F68E3D584F64 /* Pods_Pods_AvatarUIKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E463F30645E908674BE324C0 /* Pods_Pods_AvatarUIKit_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,7 @@
 /* Begin PBXFileReference section */
 		001B67825DE149CBFE37806D5B9A49E7 /* Pods-AvatarUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvatarUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		08DA15E48D4D358B7D5D27E81CFDA9DB /* Pods-AvatarUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvatarUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		13BC5321828C0D32DF43FF68 /* Pods-Pods-AvatarUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pods-AvatarUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-Pods-AvatarUIKit_Example/Pods-Pods-AvatarUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1F1EBDEB9EB25FD6A7732535C0615F9C /* Pods-AvatarUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvatarUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		26F4ACEAA86A55158A38251EB8467977 /* Pods-AvatarUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvatarUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		29EAEE1A17D0768BEA0A9BD9B43D81B2 /* Pods-AvatarUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvatarUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		60E6ABF7F49F5D8FABC2BDDC8E2ABD84 /* Pods-AvatarUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvatarUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		65C8D30439206CC43133A74D719EB982 /* Pods-AvatarUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvatarUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		79FC14B55A671431AAA8382FB8E89B19 /* Pods-AvatarUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvatarUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E5D5520E847EDF04CC922D7 /* Pods_Pods_AvatarUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pods_AvatarUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8777019309F5B84D047403C2 /* Pods_AvatarUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvatarUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CD2E11DC5E1CC0881D523507533691 /* AvatarUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvatarUIKit-prefix.pch"; sourceTree = "<group>"; };
 		8AEA064D860A27D965FEC5F31593CEC4 /* Pods-AvatarUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvatarUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		8DCBBA509DF96B1CC323FD69EA2D8B29 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -64,16 +70,22 @@
 		AD6BC0B1B083481A4A6BD20976D8D1BF /* Pods-AvatarUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvatarUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B1AB6E5897B809ABDBCFEC3DF540E285 /* AvatarUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AvatarUIKit.debug.xcconfig; sourceTree = "<group>"; };
 		B241EBF07EEFD5BCC3909058C46FAED9 /* Pods_AvatarUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvatarUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DC7881F3910B1887EA1C5E /* Pods-AvatarUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvatarUIKit.release.xcconfig"; path = "Target Support Files/Pods-AvatarUIKit/Pods-AvatarUIKit.release.xcconfig"; sourceTree = "<group>"; };
 		B5D77892DF9B82AD673851641C576863 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BDEE64E5C73E731AC5D8738FB62D45F9 /* Pods-AvatarUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AvatarUIKit_Example.modulemap"; sourceTree = "<group>"; };
+		C2866847909491E85199BAC0 /* Pods-Pods-AvatarUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pods-AvatarUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-Pods-AvatarUIKit_Tests/Pods-Pods-AvatarUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D1FD2DFF97127C4AEE007EEFA983B65E /* AvatarUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AvatarUIKit-dummy.m"; sourceTree = "<group>"; };
 		D53E085F2E006A1AD5E42620152EC902 /* Pods-AvatarUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvatarUIKit_Example-dummy.m"; sourceTree = "<group>"; };
+		D94D9D68771E7F62C84F182B /* Pods-Pods-AvatarUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pods-AvatarUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Pods-AvatarUIKit_Tests/Pods-Pods-AvatarUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DFEDA45EE0008774DA8AB0DE15E2E08B /* AvatarUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AvatarUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E090A8F28B59A871069DBCBC /* Pods-Pods-AvatarUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pods-AvatarUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-Pods-AvatarUIKit_Example/Pods-Pods-AvatarUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E463F30645E908674BE324C0 /* Pods_Pods_AvatarUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pods_AvatarUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EBBF6B620E457D6DF0781A4C9ECF9E /* AvatarUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AvatarUIKit-Info.plist"; sourceTree = "<group>"; };
 		ECEF0CF21B329373F1EDCA2AC58F5EAB /* Pods_AvatarUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvatarUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28161C92445240C004DBAD6 /* AvatarBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarBuilder.swift; sourceTree = "<group>"; };
 		F28161CA2445240C004DBAD6 /* AvatarProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarProtocol.swift; sourceTree = "<group>"; };
 		F2E0D2E224474AC50062765D /* Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
+		FEA823A0AC4CE6294EF14AA2 /* Pods-AvatarUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvatarUIKit.debug.xcconfig"; path = "Target Support Files/Pods-AvatarUIKit/Pods-AvatarUIKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7937EF5423797636681F652C6B5DAEC /* Foundation.framework in Frameworks */,
+				F613D11AF742F68E3D584F64 /* Pods_Pods_AvatarUIKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +103,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				987BA33705E56C9D34E99D84B40084FF /* Foundation.framework in Frameworks */,
+				78FD08B564A0E353C8519357 /* Pods_AvatarUIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +112,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				335F157A6972336CD20C9E81AEFF14EF /* Foundation.framework in Frameworks */,
+				0C28BED6395224B26C61BCD6 /* Pods_Pods_AvatarUIKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +159,20 @@
 			path = "Example/Pods/Target Support Files/AvatarUIKit";
 			sourceTree = "<group>";
 		};
+		850222AD7093C9ACDE6B3A1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEA823A0AC4CE6294EF14AA2 /* Pods-AvatarUIKit.debug.xcconfig */,
+				B3DC7881F3910B1887EA1C5E /* Pods-AvatarUIKit.release.xcconfig */,
+				E090A8F28B59A871069DBCBC /* Pods-Pods-AvatarUIKit_Example.debug.xcconfig */,
+				13BC5321828C0D32DF43FF68 /* Pods-Pods-AvatarUIKit_Example.release.xcconfig */,
+				D94D9D68771E7F62C84F182B /* Pods-Pods-AvatarUIKit_Tests.debug.xcconfig */,
+				C2866847909491E85199BAC0 /* Pods-Pods-AvatarUIKit_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		99CC0D7FCDF9B9D826BB45EC80B66417 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +199,7 @@
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				D3F1F551CD045AEEE85CFF38D97A58EA /* Products */,
 				FC7FA8F1F6E1A7FDA95403981DCDC6F3 /* Targets Support Files */,
+				850222AD7093C9ACDE6B3A1E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,6 +207,9 @@
 			isa = PBXGroup;
 			children = (
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				8777019309F5B84D047403C2 /* Pods_AvatarUIKit.framework */,
+				E463F30645E908674BE324C0 /* Pods_Pods_AvatarUIKit_Example.framework */,
+				7E5D5520E847EDF04CC922D7 /* Pods_Pods_AvatarUIKit_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -271,6 +304,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 132F1AB7EADFE277947971FF0C7CDA8A /* Build configuration list for PBXNativeTarget "Pods-AvatarUIKit_Tests" */;
 			buildPhases = (
+				64CFD0EAEBE295C6482479CF /* [CP] Check Pods Manifest.lock */,
 				2A6038CEFB48DF2A4B4BD4E2F2B565E2 /* Headers */,
 				41DCDE49D248E008C341A1764DD530F9 /* Sources */,
 				59C0426040063B668B751A04E07F44E2 /* Frameworks */,
@@ -290,6 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A29C543DCD14200CCBC106985E71A033 /* Build configuration list for PBXNativeTarget "AvatarUIKit" */;
 			buildPhases = (
+				1582EFE3D94A78CA64B4781E /* [CP] Check Pods Manifest.lock */,
 				D8351E953835AD3E823DDE56F263DE03 /* Headers */,
 				DD24DD38295187136EB54F9F4119AE43 /* Sources */,
 				3A1FD3C6B8FBE982560AB1B8C728732E /* Frameworks */,
@@ -308,6 +343,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32A7919C1285498AAD17881B4976BF86 /* Build configuration list for PBXNativeTarget "Pods-AvatarUIKit_Example" */;
 			buildPhases = (
+				A2C2AD17C7E2B0604FAA682D /* [CP] Check Pods Manifest.lock */,
 				A0F85BDD6923A3399B79FF95CCCFB824 /* Headers */,
 				3A8319FDF0F7E979F0E427B682262242 /* Sources */,
 				2AD24CC9B18339B6C699D30F0BCF7ECC /* Frameworks */,
@@ -337,7 +373,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -380,6 +416,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1582EFE3D94A78CA64B4781E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AvatarUIKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64CFD0EAEBE295C6482479CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pods-AvatarUIKit_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2C2AD17C7E2B0604FAA682D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pods-AvatarUIKit_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3A8319FDF0F7E979F0E427B682262242 /* Sources */ = {
@@ -443,7 +548,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AvatarUIKit_Tests/Pods-AvatarUIKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AvatarUIKit_Tests/Pods-AvatarUIKit_Tests.modulemap";
@@ -476,7 +581,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AvatarUIKit_Tests/Pods-AvatarUIKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AvatarUIKit_Tests/Pods-AvatarUIKit_Tests.modulemap";
@@ -511,7 +616,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AvatarUIKit/AvatarUIKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AvatarUIKit/AvatarUIKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AvatarUIKit/AvatarUIKit.modulemap";
 				PRODUCT_MODULE_NAME = AvatarUIKit;
@@ -543,7 +648,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AvatarUIKit_Example/Pods-AvatarUIKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AvatarUIKit_Example/Pods-AvatarUIKit_Example.modulemap";
@@ -577,7 +682,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AvatarUIKit_Example/Pods-AvatarUIKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AvatarUIKit_Example/Pods-AvatarUIKit_Example.modulemap";
@@ -642,7 +747,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -704,7 +809,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -734,7 +839,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AvatarUIKit/AvatarUIKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AvatarUIKit/AvatarUIKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AvatarUIKit/AvatarUIKit.modulemap";
 				PRODUCT_MODULE_NAME = AvatarUIKit;
@@ -771,7 +876,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
