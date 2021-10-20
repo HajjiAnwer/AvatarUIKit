@@ -47,13 +47,20 @@ public class AvatarBuilderUI : AvatarBuilderUIProtocol{
         return self
     }
     
-    public func scaleImage(url:String , scale:CGFloat = 1.0,type:Type) -> AvatarBuilderUI {
+    public func scaleImage(url:String , scale:CGFloat = 1.0,type:Type, imageProcessor: ImageProcessor? = nil) -> AvatarBuilderUI {
         let imageView = addImageViewToSuperView(scale: scale,type: type)
         if !url.isValidURL {
             (imageView.image =  UIImage(named: url))
         }else{
             let url = URL(string: url)
-            imageView.kf.setImage(with: url)
+            imageView.kf.setImage(with: url, options: imageProcessor == nil ? [.cacheOriginalImage] : [.processor(imageProcessor!)], completionHandler:  { result in
+                switch result {
+                case .success(_):
+                    break
+                case .failure(_):
+                    break
+                }
+            })
         }
         self.view.clipsToBounds = true
         self.view.addSubview(imageView)
