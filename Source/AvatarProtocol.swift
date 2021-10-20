@@ -8,10 +8,12 @@
 
 import Foundation
 import UIKit
+import Kingfisher
+
 public protocol AvatarBuilderUIProtocol {
     func circularView() -> AvatarBuilderUI
     func setBorder(borderWidth : CGFloat, borderColor : CGColor) -> AvatarBuilderUI
     func shadow(opacity: Float, color:CGColor ) ->AvatarBuilderUI
-    func scaleImage(url:String,scale:CGFloat,type:Type) ->AvatarBuilderUI
+    func scaleImage(url:String,scale:CGFloat,type:Type, imageProcessor: ImageProcessor?) ->AvatarBuilderUI
     func cornerRadius (radius: CGFloat) ->AvatarBuilderUI
 }

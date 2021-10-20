@@ -1,12 +1,12 @@
 use_frameworks!
+platform :ios, '11.0'
 
 target 'AvatarUIKit_Example' do
   
   pod 'AvatarUIKit', :path => '../'
-  pod 'kingfisher'
+  pod 'Kingfisher', '~> 5.0'
+  pod 'SVGKit', '2.1.1'
   target 'AvatarUIKit_Tests' do
     inherit! :search_paths
-
-    
   end
 end

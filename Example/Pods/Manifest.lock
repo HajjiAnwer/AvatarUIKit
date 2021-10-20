@@ -1,16 +1,36 @@
 PODS:
-  - AvatarUIKit (0.1.0)
+  - AvatarUIKit (1.0.0):
+    - Kingfisher (~> 5.0)
+  - CocoaLumberjack (3.7.2):
+    - CocoaLumberjack/Core (= 3.7.2)
+  - CocoaLumberjack/Core (3.7.2)
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
+  - SVGKit (2.1.1):
+    - CocoaLumberjack (~> 3.0)
 
 DEPENDENCIES:
   - AvatarUIKit (from `../`)
+  - Kingfisher (~> 5.0)
+  - SVGKit (= 2.1.1)
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - Kingfisher
+    - SVGKit
 
 EXTERNAL SOURCES:
   AvatarUIKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AvatarUIKit: 8c9d5a5d931159ba98c0feb96b99cb0635fc2bda
+  AvatarUIKit: ee1aefe117a3cbbca20837897412c3194f516213
+  CocoaLumberjack: b7e05132ff94f6ae4dfa9d5bce9141893a21d9da
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
 
-PODFILE CHECKSUM: c124aadf10e3a756195d9d79847438783badb12d
+PODFILE CHECKSUM: f789f574797419cd400853902be081daec3b42f9
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.11.2
